@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Simple MVC Frontend</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/Home/About">About</a>
+            <a href="/Home/Contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+    @RenderBody()
+    </main>
+
+    <footer>
+    <p>© 2026 Simple MVC Frontend. All Rights Reserved.</p>
+    </footer>
+
+    <script src="~/js/site.js"></script>
+</body>
+</html>
