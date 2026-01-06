@@ -1,0 +1,10 @@
+@using SimpleMvcFrontend.Models
+@model List<Contact>
+
+
+<ul>
+@foreach (var item in Model)
+{
+    <li>@item.Name - @item.Email</li>
+}
+</ul>
